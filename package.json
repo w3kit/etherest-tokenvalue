@@ -1,0 +1,17 @@
+{
+  "name": "tokenvalue",
+  "version": "1.0.0",
+  "description": "Use the ETHEREST and coinmarketcap API to grab the current balance and value of a token holding", 
+  "bin": {
+    "tokenvalue": "./tokenvalue.js"
+  },
+  "dependencies": {
+    "bignumber.js": "^4.0.2",
+    "etherest": "^0.1.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "author": "w3kit",
+  "license": "ISC"
+}
